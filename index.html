@@ -4,22 +4,78 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Sign Up Form</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Skranji&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
+		<div class="splashimg">
+			
+			<img
+				src="neom-n70vrh_E0Ss-unsplash.jpg"
+				alt="Image of a tree in the middle of the desert with mountains in the back"
+			/>
+            <div class="title">
+                <p>ODIN</p>
+            </div>
+            
+		</div>
 		<main>
-			<div>
-				<p>
+			<section class="first">
+				<p class="header-paragraph">
 					This is not a real online service! You know you need
 					something like this in your life to help you realize your
-					deepest dreams. Sign up <em>now</em> to get started. You
-					<em>know</em> you want to.
+					deepest dreams. Sign up <em>now</em> to get started. <div class="padd-top">You
+					<em>know</em> you want to.</div>
 				</p>
-			</div>
+			</section>
+
+			<section class="second">
+                
+				<h3>Let's do this!</h3>
+				<form action="">
+                    <div>
+					<label for="name">First Name</label>
+					<input type="text" name="name" id="name" />
+                    </div>
+                    <div>
+					<label for="surname">Last Name</label>
+					<input type="text" name="surname" id="surname" />
+                    </div>
+                    <div>
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email" />
+                    </div>
+                    <div>
+					<label for="phone-number">Phone Number</label>
+					<input type="text" name="phone-number" id="phone-number" />
+                    </div>
+                    <div>
+					<label for="password">Password</label>
+					<input type="password" name="password" id="password" />
+                    </div>
+                    <div>
+					<label for="password">Confirm Password</label>
+					<input type="password" name="password" id="password" />
+                    </div>
+					
+				</form>
+                
+            </section>
+            <section class="third">
+                <input class="submit" type="submit" value="Create Account" />
+				<p>Already have an account? <span>Log In</span></p></section>
+                
+			
 		</main>
-		<section>
-			<h3>Let's do this!</h3>
-			<form action=""></form>
-		</section>
 	</body>
 </html>
