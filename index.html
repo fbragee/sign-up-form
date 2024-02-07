@@ -27,30 +27,36 @@
             <div class="title">
                 <p>ODIN</p>
             </div>
-            
+
 		</div>
 		<main>
 			<section class="first">
-				<p class="header-paragraph">
+				<p class="big">
 					This is not a real online service! You know you need
 					something like this in your life to help you realize your
-					deepest dreams. Sign up <em>now</em> to get started. <div class="padd-top">You
+					deepest dreams. Sign up <em>now</em> to get started. 
+                    <div class="big">You
 					<em>know</em> you want to.</div>
 				</p>
 			</section>
 
-			<section class="second">
+			
                 
-				<h3>Let's do this!</h3>
-				<form action="">
-                    <div>
-					<label for="name">First Name</label>
-					<input type="text" name="name" id="name" />
+				
+			<form action="">
+                    <fieldset>
+                        <p class="big">Let's do this!</p>
+                    <div class="r1">
+                        <div>
+					        <label for="name">First Name</label>
+					        <input type="text" name="name" id="name" />
+                        </div>
+                        <div>
+					        <label for="surname">Last Name</label>
+					        <input type="text" name="surname" id="surname" />
+                        </div>
                     </div>
-                    <div>
-					<label for="surname">Last Name</label>
-					<input type="text" name="surname" id="surname" />
-                    </div>
+                    <div class="r2">
                     <div>
 					<label for="email">Email</label>
 					<input type="email" name="email" id="email" />
@@ -59,6 +65,8 @@
 					<label for="phone-number">Phone Number</label>
 					<input type="text" name="phone-number" id="phone-number" />
                     </div>
+                    </div>
+                    <div class="r3">
                     <div>
 					<label for="password">Password</label>
 					<input type="password" name="password" id="password" />
@@ -67,13 +75,17 @@
 					<label for="password">Confirm Password</label>
 					<input type="password" name="password" id="password" />
                     </div>
-					
+                    </div>
+					</fieldset>
+                    <div class="shadow"></div>
+                    <input class="submit" type="submit" value="Create Account" />
 				</form>
                 
+           
+            <section class="login">
+                
+				<p>Already have an account? <a href="">Log In</a></p>
             </section>
-            <section class="third">
-                <input class="submit" type="submit" value="Create Account" />
-				<p>Already have an account? <span>Log In</span></p></section>
                 
 			
 		</main>
